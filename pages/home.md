@@ -1,17 +1,25 @@
 ---
 layout: home
-title: Your research project
-description: Uses an easy to customize theme for its website
-background: /assets/theme/images/chuttersnap-146799-unsplash.jpg
+title: COMBINI
+description: connecting COmplementary Medicine evidence and BIological kNowledge to support Integrative health
+background: assets/theme/images/background.jpg
 permalink: /
 ---
 
-[Petridish](https://github.com/peterdesmet/petridish) is a Jekyll theme for research project websites. Or your personal blog or lab website. 👩‍🔬 It's mobile-friendly (thanks to [Bootstrap 5](https://getbootstrap.com/docs/5.1/)), free, easy to customize, and designed to work well with [GitHub Pages](https://pages.github.com/).
+COMBINI is a research project focused on developing advanced natural language processing (NLP) methods and knowledge resources to mine and integrate information about complementary medicine (CM) approaches from biomedical literature. Our goal is to improve understanding of CM effectiveness, safety, and biological mechanisms.
 
-## Installation
+## Project Goals
 
-See the demo website for instructions:
+- Develop comprehensive informatics resources for CM knowledge integration
+- Create novel NLP methods for mining CM knowledge from literature
+- Build an integrative knowledge graph combining literature and curated databases
+- Support evidence-based integration of CM with conventional medicine
+- Enable hypothesis generation and scientific discovery in CM research
 
-- [Installation]({{ '/docs/installation/' | relative_url }})
-- [Configuration]({{ '/docs/configuration/' | relative_url }})
-- [Markdown]({{ '/docs/markdown/' | relative_url }})
+## Key Research Areas
+
+- Natural language processing
+- Knowledge graphs and ontologies
+- Complementary medicine
+- Biomedical text mining
+- Knowledge integration

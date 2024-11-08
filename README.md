@@ -1,57 +1,100 @@
-# petridish 🧫
+# COMBINI Website
 
-Petridish is a Jekyll theme for research project websites. Or your personal blog or lab website. 👩‍🔬 It's mobile-friendly (thanks to [Bootstrap 5](https://getbootstrap.com/docs/5.1/)), free, easy to customize, and designed to work well with [GitHub Pages](https://pages.github.com/).
+This repository contains the source code for the COMBINI project website. The site is built using Jekyll and the Petridish theme.
 
-## Installation
+## Quick Start for Content Updates
 
-See the demo website for instructions:
+### Adding/Updating Pages
 
-- [Installation](https://peterdesmet.github.io/petridish/docs/installation)
-- [Configuration](https://peterdesmet.github.io/petridish/docs/configuration)
-- [Markdown](https://peterdesmet.github.io/petridish/docs/markdown)
+1. Pages are located in the `pages/` directory
+2. Each page needs a YAML front matter block with:
+   ```yaml
+   ---
+   title: Page Title
+   description: Brief description
+   background: assets/theme/images/background.jpg
+   permalink: /page-url/
+   ---
+   ```
 
-## Preview
+### Adding Team Members
 
-[Demo website](https://peterdesmet.github.io/petridish)
+1. Edit `_data/team.yml` to add/modify team members
+2. Required fields:
+   ```yaml
+   - name: Full Name
+     role: Role Title
+     description: Brief bio
+     image: assets/theme/images/team/photo.jpg
+   ```
+3. Optional fields: orcid, researchgate, googlescholar, twitter, mastodon, github, email
 
-[![screenshot](screenshot.png)](https://peterdesmet.github.io/petridish)
+### Adding Publications
 
-## Contributing
+1. Update `pages/publications.md`
+2. Use the following format for citations:
+   ```markdown
+   1. Author Names. Title. *Journal Name*. Year;Volume(Issue). doi:[DOI](https://doi.org/XXX)
+   ```
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/peterdesmet/petridish. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+### Adding Software/Tools
 
-## License
+1. Edit `pages/software.md`
+2. Use sections for:
+   - Current Tools
+   - Planned Releases
+   - Features & Status
+   - Usage Instructions
 
-[MIT License](LICENSE)
+### Adding Images
 
----
+1. Place images in `assets/theme/images/`
+2. For team photos: `assets/theme/images/team/`
+3. Recommended image sizes:
+   - Background images: 1920x1080px
+   - Team photos: 400x400px square
+   - Logo: 200px height
 
-<!-- All the above is about the Petridish theme, so you might want to remove that. -->
+## Site Configuration
 
-_The instructions below can be adapted/included in the README of your site repository._
+### Navigation Menu
 
-## Usage
+Edit `_data/navigation.yml` to modify the top navigation menu.
 
-This website makes use of the static website generator [Jekyll](https://jekyllrb.com/) and the [Petridish](https://github.com/peterdesmet/petridish) theme. **Each commit to `main` will automatically trigger a new build on GitHub Pages.** There is no need to build the site locally, but you can by installing Jekyll and running `bundle exec jekyll serve`.
+### Footer Content
 
-Minor changes can be committed directly to `main`.
+Edit `_data/footer.yml` to update:
+- Footer columns and content
+- Institution links
+- License information
 
-Changes requiring review (e.g. new blog posts) should be created in a separate branch and submitted as a pull request. Some guidelines:
+### Site Settings
 
-- Use `72dpi` as image resolution
-- Place background images in `assets/backgrounds/`, name them after their corresponding page/post and ideally crop them to `2100 x 700px`
-- Place content images in `assets/images/`, name them after their corresponding page/post + a suffix, e.g. `-figure-1`
-- Add tags to posts to create relevant groups (e.g. same topic, project).
-- Create internal links as `[previous post]({{ '/permalink/to/post/' | relative_url }})`
+Main configuration is in `_config.yml`:
+- Site title
+- Base URL
+- Social media links
+- Theme settings
 
-## Repo structure
+## Development
 
-The repository structure follows that of Jekyll websites.
+### Local Setup
 
-- General site settings: [_config.yml](_config.yml)
-- Pages: [pages/](pages/)
-- Posts: [_posts/](_posts/)
-- Images & static files: [assets/](assets/)
-- Top navigation: [_data/navigation.yml](_data/navigation.yml)
-- Footer content: [_data/footer.yml](_data/footer.yml)
-- Team members: [_data/team.yml](_data/team.yml)
+1. Install Ruby and Bundler
+2. Run:
+   ```bash
+   bundle install
+   bundle exec jekyll serve
+   ```
+3. Visit http://localhost:4000/combinisite/
+
+### Theme Documentation
+
+This site uses the Petridish theme. For detailed theme documentation, visit:
+https://github.com/peterdesmet/petridish
+
+## Need Help?
+
+For questions about website updates, please contact:
+- Technical issues: drshika 2 @ illinios . edu
+- Content updates: [PI contact]

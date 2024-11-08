@@ -1,8 +1,9 @@
 ---
 layout: team
 title: Team
-description: Who we are
+description: COMBINI Research Team
+background: assets/theme/images/background.jpg
 permalink: /team/
 ---
 
-On this page you can list team members by defining them in [`_data/team.yml`](https://raw.githubusercontent.com/peterdesmet/petridish/main/_data/team.yml).
+Our interdisciplinary team brings together expertise in natural language processing, biomedical informatics, and machine learning.
