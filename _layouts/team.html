@@ -70,6 +70,14 @@ description: Template for team page.
             <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
           </li>
         {% endif %}
+
+        {% if member.links %}
+          {% for link in member.links %}
+            <li class="list-inline-item">
+              <a href="{{ link.href }}">{{ link.text }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
       </ul>
     </div>
   </div>
