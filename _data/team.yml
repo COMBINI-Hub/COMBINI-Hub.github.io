@@ -30,6 +30,20 @@
     - text: Website
       href: https://www.mayo.edu/research/faculty/tao-cui-ph-d/bio-20563927
 
+- name: Robin Austin
+  role: Co-investigator
+  description: >
+    Assistant Professor, University of Minnesota, School of Nursing and Director for the Center for Nursing Informatics.
+    Expert in nursing informatics and integrative health therapies.
+  image: assets/theme/images/team/robin.jpg
+  links:
+    - text: Website
+      href: https://nursing.umn.edu/our-faculty-staff/our-faculty/robin-austin
+    - text: ORCID
+      href: https://orcid.org/0000-0003-1993-4623
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?hl=en&user=zh_60loAAAAJ
+
 - name: Luigi Marini
   role: Lead Research Software Engineer
   description: Luigi is a lead research software engineer with Software Applications and Data Laboratory at the National Center for Supercomputing. He is responsible for assisting researchers in the development of software tools for COMBINI.
@@ -42,3 +56,48 @@
   role: Associate Research Software Engineer
   description: Drshika is an associate research software engineer with Software Applications and Data Laboratory at the National Center for Supercomputing. She made this site and is responsible for assisting researchers in the development of software tools for COMBINI.
   image: assets/theme/images/team/drshika.jpg
+
+- name: Yifang Dang
+  role: PhD Candidate
+  description: >
+    PhD Candidate at the School of Biomedical Informatics, University of Texas Houston Health Center.
+    Expert in ontology construction and application in the artificial intelligence field.
+  image: assets/theme/images/team/yifang.png
+  links:
+    - text: Website
+      href: https://www.linkedin.com/in/yifang-dang-3061b8297/
+    - text: ORCID
+      href: https://orcid.org/0000-0002-4014-2957
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=wbsahZgAAAAJ&hl=en
+
+- name: Gibong Hong
+  role: Research Assistant (PhD)
+  description: >
+    PhD Student at the School of Information Sciences, University of Illinois at Urbana-Champaign.
+    Interested in NLP-based scientific information extraction.
+  image: assets/theme/images/team/gibong.jpeg
+
+- name: Haifang Li
+  role: Research Fellow
+  description: >
+    Research Fellow at the Artificial Intelligence and Informatics department, Mayo Clinic Florida,
+    with primary research interests in ontology development, biomedical natural language processing,
+    and information extraction.
+  image: assets/theme/images/team/haifang.jpg
+  links:
+    - text: ORCID
+      href: https://orcid.org/0009-0003-1098-4023
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=GiRHqwwAAAAJ
+
+- name: Marcelo Fiszman
+  role: Senior Consultant
+  description: >
+    Professor of Biomedical Informatics and Lifestyle Medicine, Pontifical Catholic University,
+    Rio de Janeiro, Brazil. Principal Biomedical Informaticist, Semedy Inc., Needham, MA.
+    Background in natural language processing and domain expertise in Lifestyle Medicine.
+  image: assets/theme/images/team/marcelo.jpg
+  links:
+    - text: Website
+      href: https://www.linkedin.com/in/marcelo-fiszman-b321646/?originalSubdomain=br
