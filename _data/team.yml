@@ -110,3 +110,10 @@
     PhD Student at the School of Information Sciences, University of Illinois at Urbana-Champaign.
     Interested in the intersection of natural language processing, knowledge graphs, and AI for science.
   image: assets/theme/images/team/yikun.jpg
+  links:
+  - text: Website
+    href: https://yikunhan42.github.io/
+  - text: ORCID
+    href: https://orcid.org/0009-0002-9683-3092
+  - text: Google Scholar
+    href: https://scholar.google.com/citations?user=ZJ8VfjcAAAAJ
