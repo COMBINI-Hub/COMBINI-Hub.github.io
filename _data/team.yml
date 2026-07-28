@@ -57,20 +57,6 @@
   description: Drshika is an associate research software engineer with Software Applications and Data Laboratory at the National Center for Supercomputing. She made this site and is responsible for assisting researchers in the development of software tools for COMBINI.
   image: assets/theme/images/team/drshika.jpg
 
-- name: Yifang Dang
-  role: PhD Candidate
-  description: >
-    PhD Candidate at the School of Biomedical Informatics, University of Texas Houston Health Center.
-    Expert in ontology construction and application in the artificial intelligence field.
-  image: assets/theme/images/team/yifang.png
-  links:
-    - text: Website
-      href: https://www.linkedin.com/in/yifang-dang-3061b8297/
-    - text: ORCID
-      href: https://orcid.org/0000-0002-4014-2957
-    - text: Google Scholar
-      href: https://scholar.google.com/citations?user=wbsahZgAAAAJ&hl=en
-
 - name: Gibong Hong
   role: Research Assistant (PhD)
   description: >
