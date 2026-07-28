@@ -1,0 +1,26 @@
+---
+layout: default
+description: Template for publications page, driven by _data/publications.yml.
+---
+
+{% if page.publications and site.data[page.publications] %}
+  {% assign sections = site.data[page.publications] %}
+{% elsif site.data.publications %}
+  {% assign sections = site.data.publications %}
+{% endif %}
+
+{{ content }}
+
+{% for section in sections %}
+  <h2 id="{{ section.section | slugify }}">{{ section.section }}</h2>
+
+  {% if section.description %}
+    {{ section.description | markdownify }}
+  {% endif %}
+
+  <ol class="publication-list">
+    {% for pub in section.entries %}
+      <li>{% include citation.html pub=pub %}</li>
+    {% endfor %}
+  </ol>
+{% endfor %}

@@ -1,0 +1,41 @@
+{% comment %}
+  Renders one entry from _data/publications.yml as a Vancouver-style reference.
+
+  Usage: {% include citation.html pub=pub %}
+{% endcomment %}
+
+{%- assign pub = include.pub -%}
+
+{{ pub.authors }}. {{ pub.title }}{% if pub.note %} [{{ pub.note }}]{% endif %}.
+{% case pub.type %}
+
+  {%- when 'journal' -%}
+    {{ pub.venue }}. {{ pub.year }}
+    {%- if pub.volume -%}
+      ;{{ pub.volume }}
+      {%- if pub.issue %}({{ pub.issue }}){% endif -%}
+      {%- if pub.pages %}:{{ pub.pages }}{% endif -%}
+    {%- endif -%}.
+
+  {%- when 'conference' -%}
+    In: {{ pub.proceedings }}; {{ pub.year }}
+    {%- if pub.month %} {{ pub.month }}{% endif -%}
+    {%- if pub.location %}; {{ pub.location }}{% endif -%}.
+    {%- if pub.publisher %} {{ pub.publisher }}; {{ pub.year }}.{% endif -%}
+    {%- if pub.pages %} p. {{ pub.pages }}.{% endif -%}
+
+  {%- when 'meeting' -%}
+    {{ pub.meeting }}; {{ pub.year }}
+    {%- if pub.month %} {{ pub.month }}{% endif -%}
+    {%- if pub.location %}; {{ pub.location }}{% endif -%}.
+
+  {%- when 'preprint' -%}
+    {{ pub.server }} [preprint]. {{ pub.year }}.
+
+{%- endcase -%}
+
+{%- if pub.doi %}
+  doi:<a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
+{%- elsif pub.url %}
+  Available from: <a href="{{ pub.url }}">{{ pub.url_text | default: pub.url }}</a>
+{%- endif -%}

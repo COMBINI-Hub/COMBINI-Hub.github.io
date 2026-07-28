@@ -1,0 +1,145 @@
+# Publications shown on the /publications page.
+#
+# Sections are rendered in the order listed here, and entries within a section
+# in the order listed, so keep each section in reverse chronological order.
+# References are formatted in Vancouver style by _includes/citation.html.
+#
+# Fields common to every entry:
+#   type      journal | conference | meeting | preprint  (selects the citation format)
+#   authors   Vancouver author string: "Family II, Family II, Family II"
+#   title     Sentence case, no trailing period
+#   year      Publication year (also used for reporting)
+#   doi       Bare DOI, rendered as a "doi:" link
+#   url       Link to use when there is no DOI, rendered as "Available from:"
+#   url_text  Optional link text, when printing the bare URL would be unwieldy
+#
+# Type-specific fields:
+#   journal     venue (NLM journal abbreviation), volume, issue, pages
+#   conference  proceedings, month, location, publisher, pages
+#   meeting     meeting, month, location, note (e.g. panel, poster)
+#   preprint    server (e.g. arXiv, MetaArXiv, medRxiv)
+
+- section: Journal Articles
+  entries:
+    - type: journal
+      authors: Austin RR, Fiszman M, Guerra E, Zhang R, Kilicoglu H
+      title: "Advancing whole-person health through informatics: a narrative review of knowledge resources for complementary and integrative health"
+      venue: J Nutr
+      year: 2026
+      volume: 156
+      issue: 5
+      pages: 101461
+      doi: 10.1016/j.tjnut.2026.101461
+
+    - type: journal
+      authors: Zhan Z, Zhou S, Zhou H, Liu Z, Zhang R
+      title: "EPEE: towards efficient and effective foundation models in biomedicine"
+      venue: npj Health Syst
+      year: 2026
+      volume: 3
+      issue: 1
+      pages: 30
+      doi: 10.1038/s44401-026-00083-2
+
+    - type: journal
+      authors: Zhan Z, Wang J, Zhou S, Deng J, Zhang R
+      title: "MMRAG: multi-mode retrieval-augmented generation with large language models for biomedical in-context learning"
+      venue: J Am Med Inform Assoc
+      year: 2025
+      volume: 32
+      issue: 10
+      pages: 1505-16
+      doi: 10.1093/jamia/ocaf128
+
+- section: Conference and Workshop Papers
+  entries:
+    - type: conference
+      authors: Han Y, Lan M, Kilicoglu H
+      title: "When evidence conflicts: uncertainty and order effects in retrieval-augmented biomedical question answering"
+      proceedings: BioNLP 2026
+      year: 2026
+      month: Jul
+      location: San Diego, CA
+      publisher: Association for Computational Linguistics
+      pages: 630-43
+      url: https://aclanthology.org/2026.bionlp-1.50/
+
+- section: Panels and Posters
+  entries:
+    - type: meeting
+      authors: Austin RR, Fiszman M, Tao C, Zhang R, Kilicoglu H
+      title: "Integrative and whole person health in the digital age: the power of informatics"
+      note: panel
+      meeting: AMIA Annual Symposium
+      year: 2025
+      location: Atlanta, GA
+
+- section: Preprints
+  entries:
+    - type: preprint
+      authors: Guerra E, Menke JD, Bernabé C, Ying X, Vorland CJ, Brown AW, Qureshi R, Mayo-Wilson E, Kilicoglu H
+      title: "Automated assessment of the trustworthiness of biomedical publications: a protocol for a scoping review"
+      server: MetaArXiv
+      year: 2026
+      doi: 10.31222/osf.io/yph8c_v1
+
+- section: Related Work
+  entries:
+    - type: journal
+      authors: Hong G, Hindle V, Veasley NM, Holscher HD, Kilicoglu H
+      title: "DiMB-RE: mining the scientific literature for diet-microbiome associations"
+      venue: J Am Med Inform Assoc
+      year: 2025
+      volume: 32
+      issue: 6
+      pages: 998-1006
+      doi: 10.1093/jamia/ocaf054
+
+    - type: journal
+      authors: Li Y, Peng X, Li J, Zuo X, Peng S, Pei D, Tao C, Xu H, Hong N
+      title: "Relation extraction using large language models: a case study on acupuncture point locations"
+      venue: J Am Med Inform Assoc
+      year: 2024
+      volume: 31
+      issue: 11
+      pages: 2622-31
+      doi: 10.1093/jamia/ocae233
+
+    - type: journal
+      authors: Ming S, Zhang R, Kilicoglu H
+      title: Enhancing the coverage of SemRep using a relation classification approach
+      venue: J Biomed Inform
+      year: 2024
+      volume: 155
+      pages: 104658
+      doi: 10.1016/j.jbi.2024.104658
+
+    - type: journal
+      authors: Austin RR, Lu SC, Jantraporn R, Park S, Geiger-Simpson E, Koithan M, Kreitzer MJ, Delaney CW
+      title: "Documentation of complementary and integrative health therapies in the electronic health record: a scoping review"
+      venue: J Integr Complement Med
+      year: 2023
+      volume: 29
+      issue: 8
+      pages: 483-91
+      doi: 10.1089/jicm.2022.0748
+
+    - type: journal
+      authors: Austin RR, Lu SC, Jantraporn R, Park S, Geiger-Simpson E, Kreitzer MJ, Koithan M, Delaney CW
+      title: An empirical analysis of complementary and integrative health therapy documentation in the electronic health record
+      venue: J Inform Nurs
+      year: 2023
+      volume: 8
+      issue: 1
+      url: https://openurl.ebsco.com/contentitem?sid=ebsco%3Aplink%3Ascholar-a&id=ebsco%3Agcd%3A162617788&crl=c&jrnl=24749192
+      url_text: EBSCO
+
+    - type: journal
+      authors: Austin RR, Lu SC, Geiger-Simpson E, Ringdahl D, Pruinelli L, Lindquist R, Koithan M, Monsen KA, Kreitzer MJ, Delaney CW
+      title: Evaluating Systemized Nomenclature of Medicine Clinical Terms coverage of complementary and integrative health therapy approaches used within integrative nursing, health, and medicine
+      venue: Comput Inform Nurs
+      year: 2021
+      volume: 39
+      issue: 12
+      pages: 1000-6
+      doi: 10.1097/cin.0000000000000764
