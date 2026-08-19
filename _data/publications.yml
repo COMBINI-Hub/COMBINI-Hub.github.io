@@ -22,6 +22,14 @@
 - section: Journal Articles
   entries:
     - type: journal
+      authors: Michael DF, Hemmingson T, Pauly K, Diestel C, Chase P, Whitsel LP, Fiszman M, Patel PM, Karlsen MC
+      title: "Optimal data collection in lifestyle medicine at the point of care: a position statement from the American College of Lifestyle Medicine"
+      venue: Am J Lifestyle Med
+      year: 2026
+      pages: 15598276261472801
+      doi: 10.1177/15598276261472801
+
+    - type: journal
       authors: Austin RR, Fiszman M, Guerra E, Zhang R, Kilicoglu H
       title: "Advancing whole-person health through informatics: a narrative review of knowledge resources for complementary and integrative health"
       venue: J Nutr
